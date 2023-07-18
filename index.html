@@ -8,7 +8,20 @@
   background-image: url(./assets/img/turtle.jpg);
 
   /* Set a specific height */
-  min-height: 500px; 
+  min-height: 600px; 
+
+  /* Create the parallax scrolling effect */
+  background-attachment: fixed;
+  background-position: center;
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+.parallax02 {
+  /* The image used */
+  background-image: url(./assets/img/turtle02.jpg);
+
+  /* Set a specific height */
+  min-height: 600px; 
 
   /* Create the parallax scrolling effect */
   background-attachment: fixed;
@@ -24,11 +37,19 @@
 
 <div class="parallax"></div>
 
-<div style="height:1000px;background-color:red;font-size:36px">
+<div style="height:200px;background-color:blue;font-size:36px">
 Scroll Up and Down this page to see the parallax scrolling effect.
 This div is just here to enable scrolling.
 Tip: Try to remove the background-attachment property to remove the scrolling effect.
 </div>
+<div class="parallax02"></div>
 
+<div style="height:200px;background-color:blue;font-size:36px">
+Whoooo its working!!!!
+Tip: Try to remove the background-attachment property to remove the scrolling effect.
+</div>
+<div>
+    Just one last section thingy
+</div>
 </body>
 </html>
